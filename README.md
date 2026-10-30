@@ -55,11 +55,11 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sylforen&theme=tokyonight&hide_border=false&border_radius=10"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a-bagnall&theme=tokyonight&hide_border=false&border_radius=10"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sylforen&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a-bagnall&theme=tokyonight"/>
 </p>
 
 ---
