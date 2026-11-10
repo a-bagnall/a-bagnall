@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <b>Machine Learning Engineer · Computer Vision · Reinforcement Learning</b><br>
+  <b> Machine Learning Engineer · Computer Vision · Reinforcement Learning </b><br>
   Orica Digital Solutions · NUBots · UoN
 </p>
 
