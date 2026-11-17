@@ -16,16 +16,12 @@
 <p align="center">
   <a href="https://a-bagnall.github.io/">Portfolio</a> ·
   <a href="https://au.linkedin.com/in/austin-bagnall">LinkedIn</a> ·
-  <a href="https://github.com/a-bagnall">GitHub</a>
 </p>
 
 <p align="center">
   Orica Digital Solutions · NUbots · University of Newcastle
 </p>
 
-<p align="center">
-  <em>Always happy to collaborate, work on interesting projects, or try something new — feel free to reach out.</em>
-</p>
 
 ---
 
