@@ -1,18 +1,34 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sylforen/Sylforen/main/Images/Gifs/ParallaxGIF.gif"
-       alt="ParallaxGIF"
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/Gifs/ParallaxGIF.gif"
+       alt="Animated parallax banner"
        width="100%"
        height="225" />
 </p>
 
----
+<h2 align="center">Hey, I'm Austin 👋</h2>
 
 <p align="center">
-  <b> Machine Learning Engineer · Computer Vision · Reinforcement Learning </b><br>
-  Orica Digital Solutions · NUBots · UoN
+  I enjoy building things, breaking things, and figuring out how to make them work.
+  I'm studying Software Engineering at the University of Newcastle and working across
+  industrial software, machine learning, and competitive robotics.
+</p>
+
+<p align="center">
+  <a href="https://a-bagnall.github.io/">Portfolio</a> ·
+  <a href="https://au.linkedin.com/in/austin-bagnall">LinkedIn</a> ·
+  <a href="https://github.com/a-bagnall">GitHub</a>
+</p>
+
+<p align="center">
+  Orica Digital Solutions · NUbots · University of Newcastle
+</p>
+
+<p align="center">
+  <em>Always happy to collaborate, work on interesting projects, or try something new — feel free to reach out.</em>
 </p>
 
 ---
+
 <p align="center">
   <a href="https://docs.python.org/3/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" width="40"/></a>
   <a href="https://pytorch.org/docs/stable/index.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="40"/></a>
@@ -23,7 +39,6 @@
   <a href="https://docs.godotengine.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" alt="Godot" title="Godot" width="40"/></a>
   <a href="https://docs.unity3d.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="Unity" title="Unity" width="40"/></a>
   <a href="https://docs.docker.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40"/></a>
-  <a href="https://www.wireshark.org/docs/"><img src="https://a-bagnall.github.io/icons/wireshark.svg" alt="Wireshark" title="Wireshark" width="40"/></a>
 </p>
 
 <p align="center">
@@ -40,34 +55,63 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="40"/></a>
 </p>
 
-
 ---
 
-<h3 align="center">
-  SuperMarioAgent : The Learning Levels
-</h3>
+### SuperMarioAgent — The Learning Levels
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sylforen/Sylforen/main/Images/best_run.gif"
-       alt="Mario RL"
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/best_run.gif"
+       alt="SuperMarioAgent gameplay"
        width="350"/>
 </p>
 
+An experiment in teaching an agent to play Super Mario Bros.
+
+- Built a vectorised sprite-detection pipeline using OpenCV.
+- Trained an ε-greedy reinforcement-learning policy.
+- Achieved the first successful level completion after 17 epochs.
+- Built around `gym-super-mario-bros`.
+
+[View the project](https://github.com/a-bagnall/mario-ml)
+
+---
+
+### NUmote — Booster K1 Robot Remote
+
 <p align="center">
-  • Vectorised sprite detection pipeline (OpenCV)<br>
-  • ε-greedy reinforcement learning policy<br>
-  • First successful completion after 17 epochs<br>
-  • Environment: <code>gym-super-mario-bros</code>
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/numote_example.png"
+       alt="NUmote browser-based robot remote"
+       width="600"/>
 </p>
+
+A browser-based remote interface for NUbots' Booster K1 robots.
+
+- Live camera feeds and video recording.
+- Gamepad and on-screen robot control.
+- Robot actions and network discovery.
+
+[View the project](https://github.com/NUbots/NUmote)
+
+---
+
+### GPSTracker
+
+An Android geofencing app built for Orica Hackathon #4 (2025).
+
+- Uses GPS enter/exit events to track geofenced areas.
+- Uses device tilt data to help identify and map potential danger zones.
+- Built from scratch in Kotlin during the hackathon.
+
+[View the project](https://github.com/a-bagnall/GPSTracker)
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a-bagnall&theme=tokyonight&hide_border=false&border_radius=10"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a-bagnall&theme=tokyonight&hide_border=false&border_radius=10" alt="GitHub streak stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a-bagnall&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a-bagnall&theme=tokyonight" alt="GitHub profile summary"/>
 </p>
 
 <p align="center">
@@ -77,5 +121,3 @@
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
-
----
