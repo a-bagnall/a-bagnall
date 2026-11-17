@@ -14,12 +14,20 @@
 </p>
 
 <p align="center">
-  <a href="https://a-bagnall.github.io/">Portfolio</a> ·
-  <a href="https://au.linkedin.com/in/austin-bagnall">LinkedIn</a> ·
+  <a href="https://a-bagnall.github.io/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-Explore%20my%20work-33ff33?style=for-the-badge&labelColor=171923" alt="Explore my portfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/austin-bagnall/">
+    <img src="https://img.shields.io/badge/LINKEDIN-Let's%20connect-0A66C2?style=for-the-badge&labelColor=171923&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+  </a>
 </p>
 
 <p align="center">
   Orica Digital Solutions · NUbots · University of Newcastle
+</p>
+
+<p align="center">
+  Always happy to collaborate, work on interesting projects, or try something new — feel free to reach out.
 </p>
 
 
