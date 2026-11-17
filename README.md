@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  Always happy to collaborate, work on interesting projects, or try something new — feel free to reach out.
+  Always happy to collaborate, work on interesting projects, or try something new feel free to reach out.
 </p>
 
 
