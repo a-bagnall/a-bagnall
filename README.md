@@ -5,7 +5,7 @@
        height="225" />
 </p>
 
-<h2 align="center">Hey, I'm Austin 👋</h2>
+<h2 align="center">Hey, I'm Austin</h2>
 
 <p align="center">
   I enjoy building things, breaking things, and figuring out how to make them work.
