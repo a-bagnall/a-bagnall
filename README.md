@@ -58,7 +58,7 @@
 
 ---
 
-### SuperMarioAgent — The Learning Levels
+<h3 align="center">SuperMarioAgent — The Learning Levels</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/best_run.gif"
@@ -77,7 +77,7 @@ An experiment in teaching an agent to play Super Mario Bros.
 
 ---
 
-### NUmote — Booster K1 Robot Remote
+<h3 align="center">NUmote — Booster K1 Robot Remote</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/numote_example.png"
@@ -95,7 +95,7 @@ A browser-based remote interface for NUbots' Booster K1 robots.
 
 ---
 
-### GPSTracker
+<h3 align="center">GPSTracker</h3>
 
 An Android geofencing app built for Orica Hackathon #4 (2025).
 
