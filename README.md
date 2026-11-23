@@ -160,16 +160,12 @@
 
 ---
 
-<h3 align="center">PokeAI &mdash; Computer Vision Detector</h3>
+<h3 align="center">PokeAI</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/pokeai_detection.png"
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/poke_ai_detection.png"
        alt="PokeAI detection output for an Eevee in a battle screen"
        width="300"/>
-</p>
-
-<p align="center">
-  A computer vision detector that reads Pokémon battle screens.
 </p>
 
 <table align="center" width="100%">
