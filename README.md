@@ -1,5 +1,3 @@
-# Hey, I'm Austin
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/Gifs/ParallaxGIF.gif"
        alt="Animated parallax banner"
