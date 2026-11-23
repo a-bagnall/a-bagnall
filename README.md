@@ -1,3 +1,5 @@
+# Hey, I'm Austin
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/Gifs/ParallaxGIF.gif"
        alt="Animated parallax banner"
@@ -8,9 +10,8 @@
 <h2 align="center">Hey, I'm Austin</h2>
 
 <p align="center">
-  I enjoy building things, breaking things, and figuring out how to make them work.
-  I'm studying Software Engineering at the University of Newcastle and working across
-  industrial software, machine learning, and competitive robotics.
+  I enjoy building things, breaking things, and figuring out how to make them work again (hopefully).<br />
+  I'm studying Software Engineering at the University of Newcastle and working as a Junior Machine Learning Engineer at Orica Digital Solutions. I'm also working on stereo depth and pose estimation for NUbots, an autonomous soccer robotics team.
 </p>
 
 <p align="center">
@@ -23,12 +24,9 @@
   Orica Digital Solutions &middot; NUbots &middot; University of Newcastle
 </p>
 
-<p align="center">
-  Always happy to collaborate, work on interesting projects, or try something new feel free to reach out.
-</p>
-
-
 ---
+
+<h3 align="center">Technologies &amp; Tools</h3>
 
 <p align="center">
   <a href="https://docs.python.org/3/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" width="32"/></a>
@@ -55,7 +53,7 @@
 
 ---
 
-<h3 align="center">SuperMarioAgent &mdash; The Learning Levels</h3>
+<h3 align="center">SuperMarioAgent: The Learning Levels</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/best_run.gif"
@@ -63,20 +61,73 @@
        width="350"/>
 </p>
 
-<p align="center">
-  An experiment in teaching an agent to play Super Mario Bros.
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li><strong>Personal Project</strong></li>
+        <li>Built a vectorised sprite-detection pipeline using OpenCV.</li>
+        <li>Trained an &epsilon;-greedy reinforcement-learning policy.</li>
+        <li>Achieved the first successful level completion after 17 epochs.</li>
+        <li>Built around <code>gym-super-mario-bros</code>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>Started by training an agent to complete World 1-1, succeeding in under 20 epochs.</li>
+        <li>Extended training to World 1-2, using only sprite information and experience from the first level.</li>
+        <li>Explored how much training data was needed to generalise to the remaining levels.</li>
+        <li>Developed as a proving ground for a larger reinforcement-learning project.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  Built a vectorised sprite-detection pipeline using OpenCV.<br/>
-  Trained an &epsilon;-greedy reinforcement-learning policy.<br/>
-  Achieved the first successful level completion after 17 epochs.<br/>
-  Built around <code>gym-super-mario-bros</code>.
+  <a href="https://github.com/a-bagnall/mario-ml">View the project &#8599;</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/a-bagnall/mario-ml">View the project</a>
-</p>
+---
+
+<h3 align="center">NUbots: Stereo Depth &amp; Pose Estimation</h3>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/booster_default_depth.png"
+           alt="Booster's default depth output"
+           width="300"/>
+      <br />
+      <sub>Booster default depth output</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/nubots_stereo_depth.png"
+           alt="Fast Foundation Stereo depth map running on the RDK X5"
+           width="300"/>
+      <br />
+      <sub>Fast Foundation Stereo on the RDK X5</sub>
+    </td>
+  </tr>
+</table>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>Evaluating stereo depth models against the depth data already provided by the robot, including Fast Foundation Stereo, Lite Any Stereo V2 and RAFT-Stereo.</li>
+        <li>Comparing segmentation models to find a balance between inference speed and accuracy.</li>
+        <li>Testing models directly on the robot's hardware (RDK X5 and Jetson Orin NX) to evaluate real-time performance.</li>
+        <li>Developing a pipeline that detects a robot in one camera view, then uses stereo depth and part segmentation to estimate its 3D pose.</li>
+        <li>Building a labelled dataset of robot body parts (head, shoulders, torso and feet) for per-part segmentation and pose estimation.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -88,48 +139,62 @@
        width="600"/>
 </p>
 
-<p align="center">
-  A browser-based remote interface for NUbots' Booster K1 robots.
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>Browser-based remote control interface for Booster K1 robots, built with Python and NiceGUI.</li>
+        <li>Real-time robot control using on-screen joysticks or Xbox and Nintendo Switch controllers, with adjustable movement speed and head positioning.</li>
+        <li>Live camera streaming with support for RGB, depth and object detection feeds through a custom ROS 2 bridge.</li>
+        <li>Robot communication and control through gRPC, Protocol Buffers, WebSockets and TCP.</li>
+        <li>Trigger built-in robot behaviours, including dancing, kicking, waving, getting up and ball chasing.</li>
+        <li>Video recording, automatic robot discovery and SSH-based deployment and management of the custom camera bridge.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  Live camera feeds and video recording.<br/>
-  Gamepad and on-screen robot control.<br/>
-  Robot actions and network discovery.
-</p>
-
-<p align="center">
-  <a href="https://github.com/NUbots/NUmote">View the project</a>
+  <a href="https://github.com/NUbots/NUmote">View the project &#8599;</a>
 </p>
 
 ---
 
-<h3 align="center">NUbots &mdash; Stereo Depth and Perception</h3>
+<h3 align="center">PokeAI &mdash; Computer Vision Detector</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/booster_default_depth.png"
-       alt="Booster's default Depth Output"
-       width="300"/>
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/nubots_stereo_depth.png"
-       alt="Depth map from Fast Foundation Stereo running on the RDK X5 rather than Orin NX inside a Booster K1"
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/pokeai_detection.png"
+       alt="PokeAI detection output for an Eevee in a battle screen"
        width="300"/>
 </p>
 
 <p align="center">
-  Left camera image (left) and Fast Foundation Stereo depth map on the RDK X5 (right).
+  A computer vision detector that reads Pokémon battle screens.
 </p>
 
-<p align="center">
-  Depth estimation and segmentation research for NUbots' Booster K1 robots.
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>Uses Open-CV to detect Pokemon and then web scrapes Bulbapedia for moveset.</li>
+        <li>Example detection output shown above, featuring Eevee.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  Depth map above generated from a stereo photo pair using Fast Foundation Stereo on the RDK X5.<br/>
-  Benchmarking stereo depth models against the X5's onboard depth output.<br/>
-  Benchmarking segmentation models for robot part detection.<br/>
-  Timing inference on the robot's own hardware (RDK X5 and Jetson Orin NX).
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>The goal is to eventually teach an Agent to play through the first generation of Pokemon</li>
+        <li>The first goal is to first leave Pallet Town, but really it's beating Brock.</li>
+        <li>The second goal would be to beat Misty + Lt. Surge</li>
+        <li>But the overarching goal with this project is to dream to beat the Elite Four, but then zero-shot Generation II based on nothing but Open-CV teaching an RL policy to detect Pokemon Sprites + knowing type weaknesses/strengths.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -139,24 +204,34 @@
   An Android geofencing app built for Orica Hackathon #4 (2025).
 </p>
 
-<p align="center">
-  Uses GPS enter/exit events to track geofenced areas.<br/>
-  Uses device tilt data to help identify and map potential danger zones.<br/>
-  Built from scratch in Kotlin during the hackathon.
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="left">
+      <ul>
+        <li>Uses GPS enter and exit events to track geofenced areas.</li>
+        <li>Uses device tilt data to help identify and map potential danger zones.</li>
+        <li>Built from scratch in Kotlin during the hackathon.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <a href="https://github.com/a-bagnall/GPSTracker">View the project</a>
+  <a href="https://github.com/a-bagnall/GPSTracker">View the project &#8599;</a>
 </p>
 
 ---
 
+<h3 align="center">GitHub Activity</h3>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a-bagnall&theme=tokyonight&hide_border=false&border_radius=10" alt="GitHub streak stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=a-bagnall&theme=tokyonight&hide_border=false&border_radius=10"
+       alt="GitHub streak stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a-bagnall&theme=tokyonight" alt="GitHub profile summary"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a-bagnall&theme=tokyonight"
+       alt="GitHub profile summary"/>
 </p>
 
 <p align="center">
