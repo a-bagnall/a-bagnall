@@ -107,9 +107,17 @@
 <h3 align="center">NUbots &mdash; Stereo Depth and Perception</h3>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/booster_default_depth.png"
+       alt="Booster's default Depth Output"
+       width="300"/>
+  &nbsp;
   <img src="https://raw.githubusercontent.com/a-bagnall/a-bagnall/main/Images/nubots_stereo_depth.png"
-       alt="Depth map from a stereo pair using Fast Foundation Stereo on the RDK X5"
-       width="400"/>
+       alt="Depth map from Fast Foundation Stereo running on the RDK X5 rather than Orin NX inside a Booster K1"
+       width="300"/>
+</p>
+
+<p align="center">
+  Left camera image (left) and Fast Foundation Stereo depth map on the RDK X5 (right).
 </p>
 
 <p align="center">
